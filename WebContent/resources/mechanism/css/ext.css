@@ -1,0 +1,8 @@
+body {font-family: Verdana, Geneva, sans-serif;font-size: 12px;font-weight: normal;color: #8a8a8a;text-decoration: none;background-color: #f6f9fa;border: 0px;padding:0px;margin:0px;}
+a{font-size: 12px;font-weight: normal;color: #8a8a8a;text-decoration: none;}
+div{width:400px; height:241px; border:1px solid #dcdcdc;float:right;-moz-box-shadow:0px 0px 30px #979797; -webkit-box-shadow:0px 0px 30px #979797; box-shadow:0px 0px 30px #cacaca;-moz-border-radius:5px 0px 0px 5px; -webkit-border-radius:5px 0px 0px 5px; border-radius:5px 0px 0px 5px;}
+#button{height:35px;color:#fff; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; border:0px; padding:0px 10px; cursor:pointer;background:#4c98f6;width:350px;}
+#username,#password {height:33px; border:1px solid #dcdcdc; padding:0px 15px; color:#909090;width:320px;}
+.table_1{position:absolute; top:50%; left:50%; margin-left:-365px; margin-top:-140px;}
+.mar_t_1{margin-top:30px;}
+.f{color:#4c98f6;}

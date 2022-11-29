@@ -1,0 +1,84 @@
+/* CSS Document */
+html {
+  font-size: 22.18px;
+}
+
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 12px !important;
+  }
+
+}
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 12.47625px !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 12.996px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 13.8625px !important;
+  }
+}
+@media only screen and (min-width: 411px) {
+  html {
+    font-size: 14.2437px !important;
+  }
+}
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 14.278px !important;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 14.3476px !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 16.635px !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 22.18px !important;
+  }
+}
+
+body{padding:0px; margin: 0px auto; border: 0px; max-width: 640px;min-width: 320px;font-family:"微软雅黑", "黑体", "SimSun", Arial; background: #509bf7;}
+ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, table, td, form, select, fieldset, div, input {margin:0px;padding:0px;-webkit-text-size-adjust: none;}
+a{text-decoration: none;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.m0auto{margin: 0px auto;}
+.p1{padding: 1rem;}
+.mb5{margin-bottom: 5rem;}
+
+
+.tlf{table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */}
+.tla{able-layout:  automatic;/* 取消fixed，恢复为默认。 */}
+.tdwb{width:100%;word-break:keep-all;/* 不换行 */white-space:nowrap;/* 不换行 */overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/}
+
+.imgb{width: 27.953rem;height: auto;max-width: 620px; margin: 0px auto;left: 50%; top: 0px; margin-left: -13.9765rem;}
+.spanz{display: inline-block;width: 27.953rem;max-width: 620px; text-align: center; font-size: 1.307rem; color: #1e70d6; left: 50%;z-index: 10; top: 12.3rem;margin-left: -13.9765rem;}
+
+.fx img{width: 12.3534rem; max-width: 274px; height: auto;border: 0px;}
+
+.maxw{width:27.953rem;max-width: 620px; margin: 0px auto;}
+
+.h2254{height: 2.254rem;}
+
+.mt165{margin-top: 16.5rem;}
+
+.z1ffffff{font-size: 1rem;color: #ffffff;text-decoration: none;}
+.z1ffffff a{color: #ffffff; text-decoration: none;}
+.wz span{font-size: 1rem;color: #ffe56b;text-decoration: none;}
+.z06925ffffff{font-size: 0.6925rem;color: #ffffff;text-decoration: none;}
+.z06925ffffff a{color: #ffffff; text-decoration: none;}
+

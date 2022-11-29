@@ -1,0 +1,138 @@
+/* CSS Document */
+html {
+  font-size: 22.18px;
+}
+
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 10px !important;
+  }
+
+}
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 12.47625px !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 12.996px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 13.8625px !important;
+  }
+}
+@media only screen and (min-width: 411px) {
+  html {
+    font-size: 14.2437px !important;
+  }
+}
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 14.278px !important;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 14.3476px !important;
+  }
+}
+@media only screen and (min-width: 415px) {
+  html {
+    font-size: 14.3476px !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 16.635px !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 22.18px !important;
+  }
+}
+
+body{padding:0px; margin: 0px auto; border: 0px; max-width: 640px;min-width: 320px;font-family:"微软雅黑", "黑体", "SimSun", Arial; background: #f5f5f5;}
+ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, table, td, form, select, fieldset, div, input {margin:0px;padding:0px;-webkit-text-size-adjust: none;}
+a{text-decoration: none;}
+
+
+.tlf{table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */}
+.tla{able-layout:  automatic;/* 取消fixed，恢复为默认。 */}
+.tdwb{width:100%;word-break:keep-all;/* 不换行 */white-space:nowrap;/* 不换行 */overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/}
+.lh1875{line-height: 1.875rem;}
+.tac{text-align: center;}
+.dpn{display: none;}
+.m0auto{margin: 0px auto;}
+
+.pr{position: relative;}
+.pa{position: absolute;}
+.pf{position:fixed;}
+.oh{overflow:hidden;}
+.tdoh{white-space: nowrap;text-overflow: ellipsis;overflow: hidden; }
+
+.tp05{padding: 0.5rem 0rem;}
+
+.fimg{width:28.8548241659rem;max-width: 640px; height: auto; display: block;}
+.hdgz{font-size: 1rem; color: #890020; text-decoration: none; right: 0.5rem;top: 0.5rem;}
+
+.agreek{left:2.5rem;top: 0.425rem; width: 1.0369rem; max-width: 23px; height: auto;}
+.agreeg{left:2.6rem;top: 0.66rem; width: 0.7664562669rem; max-width: 17px; height: auto;}
+.zgreez{color:#ffc9c9;font-size: 0.76871rem; text-decoration: none;display: block;left: 4.3rem;top: 0.6rem;}
+.zgreez a{color:#ffc9c9;text-decoration: none;}
+
+.img3877{width: 3.877rem; max-width: 86px; height: auto;}
+.imgl14t06{left: 1.3rem;top: 0.6rem;}
+.img231289{width: 23.1289rem;max-width: 513px;height: auto;}
+
+.foodz{left: 7.19rem;bottom: 1.7rem;font-size: 1rem; color: #890020; text-decoration: none; }
+
+.c{width: 10.82rem;background: #fff; border-radius: 1rem;-moz-box-shadow: 0px 0px 20px #666666;-webkit-box-shadow: 0px 0px 20px #666666;box-shadow: 0px 0px 20px #666666;top: 0px;margin-top: -6rem; margin-left: -10rem; font-size: 1rem;line-height: 3rem; display: none;}
+
+.h635707{height: 6.35707rem;}
+
+.z1565656{font-size: 1rem; color: #565656; text-decoration: none;}
+.z1666666{font-size: 1rem; color: #666666; text-decoration: none;}
+.z1ffffff{font-size: 1rem; color: #ffffff; text-decoration: none;}
+.z12623ffffff{font-size: 1.2623rem;color: #ffffff;text-decoration: none;line-height: 170%;}
+.z12623444444{font-size: 1.2623rem;color: #444444;text-decoration: none;line-height: 170%;}
+.z126234c98f6{font-size: 1.2623rem;color: #4c98f6;text-decoration: none;line-height: 170%;}
+.z10824c98f6{font-size: 1.082rem; color: #4c98f6;text-decoration: none;}
+.z13525{font-size: 1.3525rem;color: #fff; line-height: 170%; text-decoration: none;}
+
+.bgf4c900{background: #f4c900;}
+.bg4c98f6{background: #4c98f6;}
+
+.pa1{padding: 1rem;}
+.plr1{padding: 0rem 1rem;}
+
+.h36{height: 3.6rem;}
+.h2705{height: 2.705rem;}
+.h1{height: 1rem;}
+
+.t02{top: 0.2rem;}
+.t15{top: 1.5rem;}
+.t2{top: 2rem;}
+
+.d1{width: 100%; text-align: center;}
+
+.inp{width: 23.1289rem;max-width: 513px; height: 3.1559rem;background: #fff;border-radius: 0.5rem;border: none;color: #909090;font-size: 1rem;line-height: 3.1559rem; text-align: center;letter-spacing:3px;}
+.ft{top: 0rem;left: 0rem;}
+
+
+#fd{position:fixed;height:3.60685302rem; width:3.60685302rem;bottom:6rem; right: 0.8rem; z-index:2;}
+	#fd img{height: 3rem;-moz-box-shadow: 0px 0px 20px #a1a1a1;-webkit-box-shadow: 0px 0px 20px #a1a1a1;box-shadow: 0px 0px 20px #a1a1a1;border-radius: 5px;}
+	#top{width:100%;height: auto;}
+	#top a{display: block; width: 100%;border-bottom: 1px dashed #ccc; position: relative;line-height: 3.5rem; height: 3.5rem;}
+	#top img{position: absolute;right: 1rem; bottom: 1.2rem; height: 1rem;width: 0.7rem;}
+
+
+.dz236248{width: 23.6248rem;top:0px;left:2.5924rem;text-align: center;letter-spacing:3px;}
+.dcode{width: 13.0297rem;max-width: 290px;height: auto;background: #fff;padding: 1rem;-moz-box-shadow: 0px 0px 20px #666666;-webkit-box-shadow: 0px 0px 20px #666666;box-shadow: 0px 0px 20px #666666;}
+.dlh25{line-height: 2.5rem;}
+.dimg{width:21.73rem;max-width: 482px; height: auto;border:none;top:0px;left:3.5624rem;}
+

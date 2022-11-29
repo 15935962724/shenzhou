@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>好康护-让幸福简单起来</title>
+<meta name="author" content="好康护" />
+<meta name="copyright" content="好康护" />
+<meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=1.0, user-scalable=yes">
+<link rel="icon" href="${base}/favicon.ico" type="image/x-icon" />
+<link href="${base}/resources/shop/slider/slider.css" rel="stylesheet" type="text/css" />
+<link href="${base}/resources/shop/css/common.css" rel="stylesheet" type="text/css" />
+<link href="${base}/resources/shop/css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${base}/resources/shop/js/jquery.js"></script>
+<script type="text/javascript" src="${base}/resources/shop/js/jquery.tools.js"></script>
+<script type="text/javascript" src="${base}/resources/shop/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="${base}/resources/shop/slider/slider.js"></script>
+<script type="text/javascript" src="${base}/resources/shop/js/common.js"></script>
+<script type="text/javascript">
+
+function CheckForm(o)
+	{
+		sCantBlank = ",username,tel,company,content,";
+		with(o)
+			{
+			for(var i=0;i<elements.length;++i)
+				{
+					if(sCantBlank.indexOf(elements[i].name)>0&&elements[i].value=="")
+						{
+							alert("请提交完整信息。");
+							elements[i].focus();
+							return false;
+						}
+				}
+			}
+		return true;
+	}
+function disp_hidden_d(d_id)
+	{
+		$("#"+d_id).toggle();
+
+		if($(document.body).css("overflow-x")=="hidden")
+			{
+				 $(document.body).css({"overflow-x":"auto","overflow-y":"auto"});
+			}
+		else
+			{
+				 $(document.body).css({"overflow-x":"hidden","overflow-y":"hidden"});
+			}
+	}
+</script>
+<style>
+	.d_code{width:142px;height: 142px;border: 2px solid #dcdcdc;}	
+	#layer{width:100%;height:100%; left:0;top:0; background:rgba(0,0,0,.5); position:absolute;z-index:99; display:none;}
+.layer{z-index:99; left:50%;/*FF IE7*/ top:50%;/*FF IE7*/ margin-left:-250px!important;/*FF IE7 该值为本身宽的一半 */ margin-top:-200px!important;/*FF IE7 该值为本身高的一半*/ margin-top:0px; position:fixed!important;/*FF IE7*/ position:absolute;/*IE6*/  _top:expression(eval(document.compatMode &&  document.compatMode=='CSS1Compat') ?  documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/display:block;width:470px;height:370px;background-color:#FFF;-moz-box-shadow:0px 0px 20px #979797; -webkit-box-shadow:0px 0px 20px #979797; box-shadow:0px 0px 20px #979797;-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;position:relative;padding:15px;}
+#layer span{ display:block; width:50px; color:#666666; line-height:30px; font-size:14px; float:left;}
+/*#layer .d_l_1{float:left;width:450px;height:350px; margin-left:5px;}*/
+#layer .d_l_1{float:left;width:450px;height:350px; margin-left:5px;}
+#layer .d_1_2{position:relative; height:32px; margin-top:10px;}
+#layer .d_1_3{position:relative; margin-top:10px;}
+#layer .d_1_4{width:100%; text-align:center; margin-top:20px;}
+#layer .d_cont_1{width:370px;height:180px; border:1px solid #dcdcdc; float:left;color:#909090; font-size:14px; line-height:170%;}
+#layer .d_cl_1{float:right; width:15px; height:15px; top:0px;}
+	#layer .d_cl_1 a{border:1px solid #f00;display: block; width: 20px; height: 20px;text-align: center;line-height: 18px;-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;color:#f00;}
+
+</style>
+</head>
+<body>
+<div class="nav"><a href="javascript:;" onclick="disp_hidden_d('layer');">关于我们</a>　<a href="#join">加入平台</a></div>
+<div class="banner">
+<img src="${base}/resources/shop/images/h_c_1.jpg" alt="患者端下载" class="d_code" style="margin-left:-447px;" />
+<img src="${base}/resources/shop/images/y_c_1.jpg" alt="医师端下载" class="d_code" style="margin-left:-255px;" />
+</div>
+<div class="cont">
+	<div class="item">
+    	<div class="t">
+        	<span class="t1">好康护</span>
+        	<div class="t2"><hr class="hr1" /><span class="z1">全天候康护服务</span><hr class="hr1" /></div>
+        </div>
+        <ul>
+        	<li><img src="${base}/resources/shop/images/t_1.jpg" /><span class="s1">寻医</span> <span class="s2">知名专家全天候诊</span></li>
+        	<li><img src="${base}/resources/shop/images/t_2.jpg" /><span class="s1">建档</span> <span class="s2">智能管理服务体系</span></li>
+        	<li><img src="${base}/resources/shop/images/t_3.jpg" /><span class="s1">康护</span> <span class="s2">诊评、服务一站式</span></li>
+        	<li><img src="${base}/resources/shop/images/t_4.jpg" /><span class="s1">回访</span> <span class="s2">星级回访服务体系</span></li>
+        </ul>
+    </div>
+    <div class="pic">
+    	<div class="t">
+        	<span class="t1">好康护</span>
+            <div class="t2"><hr class="hr1" /><span class="z1">让幸福简单起来</span><hr class="hr1" /></div>
+            <table width="904" height="390" border="0" align="center" cellpadding="0" cellspacing="0" class="tab" style="margin:0px auto;">
+                <tr>
+                    <td colspan="3" rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_01.jpg" width="112" height="91" alt=""></td>
+                    <td colspan="4" rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_02.jpg" width="152" height="91" alt=""></td>
+                    <td colspan="4" rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_03.jpg" width="152" height="140" alt=""></td>
+                    <td colspan="2">
+                        <img src="${base}/resources/shop/images/pic_04.jpg" width="70" height="57" alt=""></td>
+                    <td colspan="2">
+                        <img src="${base}/resources/shop/images/pic_05.jpg" width="70" height="57" alt=""></td>
+                    <td colspan="4">
+                        <img src="${base}/resources/shop/images/pic_06.jpg" width="104" height="57" alt=""></td>
+                    <td colspan="3">
+                        <img src="${base}/resources/shop/images/pic_07.jpg" width="104" height="57" alt=""></td>
+                    <td colspan="4" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_08.jpg" width="139" height="92" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="57" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="3" rowspan="6">
+                        <img src="${base}/resources/shop/images/pic_09.jpg" width="104" height="120" alt=""></td>
+                    <td colspan="3" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_10.jpg" width="83" height="83" alt=""></td>
+                    <td colspan="4" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_11.jpg" width="125" height="83" alt=""></td>
+                    <td rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_12.jpg" width="36" height="35" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="34" alt=""></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_13.jpg" width="65" height="64" alt=""></td>
+                    <td colspan="4" rowspan="6">
+                        <img src="${base}/resources/shop/images/pic_14.jpg" width="120" height="118" alt=""></td>
+                    <td colspan="2" rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_15.jpg" width="79" height="49" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="1" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="4" rowspan="6">
+                        <img src="${base}/resources/shop/images/pic_16.jpg" width="107" height="118" alt=""></td>
+                    <td rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_17.jpg" width="68" height="57" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="48" alt=""></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_18.jpg" width="61" height="69" alt=""></td>
+                    <td colspan="3" rowspan="8">
+                        <img src="${base}/resources/shop/images/pic_19.jpg" width="121" height="124" alt=""></td>
+                    <td colspan="2" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_20.jpg" width="49" height="37" alt=""></td>
+                    <td colspan="4" rowspan="6">
+                        <img src="${base}/resources/shop/images/pic_21.jpg" width="110" height="90" alt=""></td>
+                    <td colspan="3" rowspan="9">
+                        <img src="${base}/resources/shop/images/pic_22.jpg" width="98" height="128" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="9" alt=""></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_23.jpg" width="68" height="61" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="6" alt=""></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_24.jpg" width="65" height="54" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="22" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="5" rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_25.jpg" width="153" height="71" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="32" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="5" rowspan="7">
+                        <img src="${base}/resources/shop/images/pic_26.jpg" width="185" height="109" alt=""></td>
+                    <td rowspan="6">
+                        <img src="${base}/resources/shop/images/pic_27.jpg" width="61" height="61" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="1" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="3" rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_28.jpg" width="83" height="58" alt=""></td>
+                    <td colspan="2" rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_29.jpg" width="92" height="58" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="20" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="4" rowspan="6">
+                        <img src="${base}/resources/shop/images/pic_30.jpg" width="110" height="89" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="18" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="5" rowspan="5">
+                        <img src="${base}/resources/shop/images/pic_31.jpg" width="153" height="71" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="16" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="5">
+                        <img src="${base}/resources/shop/images/pic_32.jpg" width="61" height="94" alt=""></td>
+                    <td rowspan="4">
+                        <img src="${base}/resources/shop/images/pic_33.jpg" width="60" height="55" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="4" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_34.jpg" width="48" height="51" alt=""></td>
+                    <td colspan="3" rowspan="5">
+                        <img src="${base}/resources/shop/images/pic_35.jpg" width="117" height="121" alt=""></td>
+                    <td colspan="3" rowspan="5">
+                        <img src="${base}/resources/shop/images/pic_36.jpg" width="108" height="121" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="2" alt=""></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_37.jpg" width="61" height="48" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="48" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_38.jpg" width="92" height="71" alt=""></td>
+                    <td colspan="2" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_39.jpg" width="68" height="71" alt=""></td>
+                    <td colspan="2" rowspan="3">
+                        <img src="${base}/resources/shop/images/pic_40.jpg" width="86" height="71" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="1" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_41.jpg" width="80" height="70" alt=""></td>
+                    <td colspan="2" rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_42.jpg" width="82" height="70" alt=""></td>
+                    <td colspan="4" rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_43.jpg" width="119" height="70" alt=""></td>
+                    <td colspan="4" rowspan="2">
+                        <img src="${base}/resources/shop/images/pic_44.jpg" width="90" height="70" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="39" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="${base}/resources/shop/images/pic_45.jpg" width="61" height="31" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="1" height="31" alt=""></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="65" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="27" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="20" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="48" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="25" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="61" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="18" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="43" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="60" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="20" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="29" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="53" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="17" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="34" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="36" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="32" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="15" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="27" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="30" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="18" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="50" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="36" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="31" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="16" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="24" height="1" alt=""></td>
+                    <td>
+                        <img src="${base}/resources/shop/images/pic_00.gif" width="68" height="1" alt=""></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="down">
+    	<div class="t m_t_p_60">
+        	<span class="t1">选择下载</span>
+        	<div class="t2"><hr class="hr1" /><span class="z1">用心连接你我</span><hr class="hr1" /></div>
+        </div>
+        <ul>
+        	<li><img src="${base}/resources/shop/images/patient_code.jpg" alt="患者端下载" class="d_code" /><a href="./apk/patient.html">患者端下载</a></li>
+        	<li><img src="${base}/resources/shop/images/doctor_code.jpg" alt="医师端下载" class="d_code" /><a href="./apk/doctor.html">医师端下载</a></li>
+        	<li><a href="javascript:;"><img src="${base}/resources/shop/images/qr_code.jpg" alt="微信公众号" class="d_code" /></a><a href="javascript:;">微信公众号</a></li>
+        </ul>
+    </div>
+    <div class="j" id="join">
+    	<div class="t">
+        	<span class="t1">机构加入</span>
+        	<div class="t2"><hr class="hr1" />
+        	<span class="z1">诚心服务 真情相伴</span>
+        	<hr class="hr1" /></div>
+        </div>
+        <div class="b">
+          <form id="p_join" name="p_join" method="get" action="app/doctor/organization.jhtml" onSubmit="return CheckForm(this);">
+       	  <div class="k_1">
+            	<label class="lab">您的姓名</label><input type="text" id="username" name="customerName" class="inp_1" />
+          </div>
+       	  <div class="k_1">
+            	<label class="lab">联系电话</label><input type="text" id="tel" name="phone" class="inp_1" />
+          </div>
+       	  <div class="k_1">
+            	<label class="lab">机构名称</label><input type="text" id="company" name="organization" class="inp_1" />
+          </div>
+       	  <div class="k_2">
+            	<label class="lab">介绍说明</label><textarea name="introduce" class="inp_2" id="content"></textarea>
+          </div>
+       	  <!--div class="k_1">
+            	<label class="lab f_left">验证码</label><input type="text" id="code" name="code" class="inp_1 inp_3 f_left" /><div class="i_code"><img id="img_code" name="img_code" src="${base}/resources/shop/images/code.jpg" border="0" onClick="this.src='${base}/resources/shop/images/code.jpg';" style=" cursor:pointer;" /></div> <label class="lab_2"><a href="javascript:;" onClick="document.getElementById('img_code').src='${base}/resources/shop/images/code.jpg';">点击刷新验证码</a></label>
+          </div-->
+       	  <div class="k_1" style="text-align:right;">
+          	<input type="image" src="${base}/resources/shop/images/join.jpg" class="m_r_20" />
+          </div>
+          </form>
+        </div>
+    </div>
+</div>
+<div class="food">
+	<ul>
+    	<li>©2017 好康护 <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备17042056-1号</a></li>
+        <li style="text-align:right;"><a href="#top">返回顶部</a></li>
+    </ul>
+</div>
+
+<div id="layer">
+	<div class="layer">
+    	<div class="d_l_1">
+		　　好康护—北京全康科技有限责任公司旗下康复管理服务平台。通过B2b2c的运营模式，以寻医、建档、康复、回访为业务核心，聚焦民众所关注的咨询、确诊、治疗等健康康复基础问题，为公众康护用户提供专业性的在线咨询、健康评估、康复计划、康复治疗、健康回访一站式星级健康康复服务。<br><br>
+
+		　　寻医：全国知名专家全天候候诊，第一时间响应式服务；<br>
+		　　建档：以诊评报告、康复计划、康复记录、疗效总结为一体，建立<br>　　　　　智能档案管理平台；<br>
+		　　康护：病况诊评、康护服务一站完成，极致呵护，乐享健康无忧；<br>
+		　　回访：星级回访机制，完善用户服务体系<br><br>
+
+		　　好康护—让幸福简单起来！！      	
+        </div>
+        <div class="d_cl_1"><a href="javascript:;" onclick="disp_hidden_d('layer');">x</a></div>
+    
+	</div>
+</div>
+</body>
+</html>

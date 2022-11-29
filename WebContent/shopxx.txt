@@ -1,0 +1,6 @@
+HaoKangHu
+Copyright 2005-2013 shenzhou.net. All rights reserved.
+Support: http://www.shenzhou.net
+License: http://www.shenzhou.net/license
+Revision: 3.0 RELEASE
+Date: 2013-06

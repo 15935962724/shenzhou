@@ -1,0 +1,131 @@
+/* CSS Document */
+
+html {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 13.5px !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 14.0625px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (min-width: 411px) {
+  html {
+    font-size: 15.4125px !important;
+  }
+}
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 15.45px !important;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 15.525px !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 24px !important;
+  }
+}
+
+body{padding:0px; margin: 0px auto; border: 0px; max-width: 640px;min-width: 320px;font-family:"microsoft yahei","simhei", "SimSun", Arial; background: #f0f1f0;}
+ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, table, td, form, select, fieldset, div, input {margin:0px;padding:0px;-webkit-text-size-adjust: none;}
+a{text-decoration: none;}
+
+
+.tlf{table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */}
+.tla{able-layout:  automatic;/* 取消fixed，恢复为默认。 */}
+.tdwb{width:100%;word-break:keep-all;/* 不换行 */white-space:nowrap;/* 不换行 */overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/}
+.tac{text-align: center;}
+.dpn{display: none;}
+.dib{display: inline-block;}
+
+.pr{position: relative;}
+.pa{position: absolute;}
+.pf{position:fixed;}
+.oh{overflow:hidden;}
+.toe{text-overflow: ellipsis;}
+.wsn{white-space: nowrap;}
+.tdoh{white-space: nowrap;text-overflow: ellipsis;overflow: hidden; }
+
+.z11667444444{font-size: 1.1667rem;color: #444444; line-height: 170%;}
+.z11667444444{text-decoration: none; color: #444444;}
+.z14c98f6{font-size: 1rem;color: #4c98f6;}
+.z14c98f6{text-decoration: none; color: #4c98f6;}
+.z166674c98f6{font-size: 1.6667rem;color: #4c98f6;}
+.z166674c98f6{text-decoration: none; color: #4c98f6;}
+.z283334c98f6{font-size: 2.8333rem;color: #4c98f6;}
+.z283334c98f6{text-decoration: none; color: #4c98f6;}
+.z13333ffffff{font-size: 1.3333rem;color: #ffffff;}
+.z13333ffffff{text-decoration: none; color: #ffffff;}
+.z1ffffff{font-size: 1rem;color: #ffffff;}
+.z1ffffff{text-decoration: none; color: #ffffff;}
+.z1a9a9a9{font-size: 1rem;color: #a9a9a9;}
+.z1a9a9a9{text-decoration: none; color: #a9a9a9;}
+
+.h1{height: 1rem;max-height: 24px;}
+.h62917{height: 5.2917rem; max-height: 103px;}
+.h2{height: 2rem; max-height: 48px;}
+.h32917{height: 3.2917rem; max-height: 80px;}
+.h18333{height: 1.8333rem; max-height: 44px;}
+
+.lh2{line-height: 2rem;}
+
+.pa1{padding: 1rem;}
+.pa05{padding: 0.5rem;}
+.pa1667{padding: 1.667rem;}
+.plr1208tb05{padding: 0.5rem 1.2083rem;}
+.plr05{padding: 0rem 0.5rem;}
+.pt08{padding-top: 0.8rem;}
+.pb1{padding-bottom: 1rem;}
+
+.bg4c98f6{background:#4c98f6;}
+
+#PicText img, #Safeguards img, #Coupon img{width: 24.667rem;max-width: 592px; height: auto;}
+#Safeguards h1{display: inline-block;font-size: 1.1667rem;color: #909090; line-height:3.6667rem; height: 3.667rem;width: auto;}
+.gimg{width: 24.667rem;max-width: 592px; height: auto;top: 0rem;left:1rem;}
+.cnum{display: inline-block;width: 4.75rem; max-width: 115px; margin-left: 0.25rem; border-radius: 2rem; background: #4c98f6;text-align: center;color: #fff;line-height: 1.6667rem;}
+.cdate{letter-spacing: -1px; line-height: 1.6667rem;}
+
+.w24667{width: 24.667rem; }
+.w6{width: 6rem; }
+.w57{width: 5.7rem;}
+.w55{width: 5.5rem;}
+.w5{width: 5rem; }
+.w14917{width: 14.917rem; }
+.w24374{width: 24.374rem;max-width: 585px;}
+
+.jimg{width: 1rem; max-width: 24px;height: auto;margin-left: 1.5rem;margin-right: 0.5rem;cursor: pointer;}
+
+.m0auto{margin: 0px auto;}
+.ml108333333{margin-left: 1.08333333rem;}
+
+.gtable{width: 23rem;max-width: 552px;z-index: 10; top: 0.8333rem;left: 1.8333rem;}
+
+.limitInfo{cursor: pointer;}
+.limitinfodiv{height: 1.4rem;max-height: 33.6px; overflow: hidden;}
+.limitinfobg{background: url(../images/jfdh_details_ggcs_bg@1x.png) no-repeat left bottom;}
+.limitinfotd{background: #fbfafa; padding-top: 0.8rem;padding-bottom: 0.8rem; box-shadow: 2px 2px 4px rgba(200,200,200,0.5);}

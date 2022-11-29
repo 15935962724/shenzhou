@@ -1,0 +1,7 @@
+/build
+.gitngnore
+/.classpath
+.project
+/.idea
+/.settings
+/.gi
